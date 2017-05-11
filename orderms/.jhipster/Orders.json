@@ -1,0 +1,27 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "productCnt",
+            "fieldType": "Integer",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "custId",
+            "fieldType": "Integer",
+            "fieldValidateRules": [
+                "required"
+            ]
+        }
+    ],
+    "changelogDate": "20170505095212",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "orders",
+    "pagination": "pagination",
+    "microserviceName": "orderms",
+    "searchEngine": false
+}

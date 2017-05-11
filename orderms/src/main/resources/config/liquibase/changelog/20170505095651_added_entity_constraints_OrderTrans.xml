@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.4.xsd">
+    <!--
+        Added the constraints for entity OrderTrans.
+    -->
+    <changeSet id="20170505095651-2" author="jhipster">
+        
+        <addForeignKeyConstraint baseColumnNames="orders_id"
+                                 baseTableName="order_trans"
+                                 constraintName="fk_order_trans_orders_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="orders"/>
+
+    </changeSet>
+</databaseChangeLog>

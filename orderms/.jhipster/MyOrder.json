@@ -1,0 +1,25 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "custId",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "prodCnt",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "status",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20170508064926",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "my_order",
+    "pagination": "pagination",
+    "microserviceName": "orderms",
+    "searchEngine": false
+}
