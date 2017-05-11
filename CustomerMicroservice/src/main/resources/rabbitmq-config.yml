@@ -1,0 +1,4 @@
+rabbitmq:
+  serverName : brl05798
+  username : admin
+  password : admin
